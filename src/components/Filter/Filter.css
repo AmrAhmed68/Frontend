@@ -1,0 +1,11 @@
+.filter-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .filter-container {
+        flex-direction: column;
+    }
+}
